@@ -35,7 +35,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "\nHello $name!" +
                 "\n\nThis is my second commit and push" +
                 "\nAnd this is my third commit and push" +
-        "\nThis is my fourth commit and push",
+        "\nThis is my fourth commit and push" +
+                "\n And this is my fifth and last commit and push",
         modifier = modifier
     )
 }
