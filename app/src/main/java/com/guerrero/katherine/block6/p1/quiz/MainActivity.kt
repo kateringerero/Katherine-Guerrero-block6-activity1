@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    Greeting("Sir Jan")
                 }
             }
         }
@@ -32,7 +32,9 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "\nHello $name!",
+        text = "\nHello $name!" +
+                "This is my second push" +
+                "",
         modifier = modifier
     )
 }
