@@ -33,8 +33,8 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "\nHello $name!" +
-                "This is my second push" +
-                "",
+                "\nThis is my second commit and push" +
+                "\nAnd this is my third commit and push",
         modifier = modifier
     )
 }
